@@ -38,6 +38,10 @@ a {
     border-radius: 5px;
 }
 
+h2 {
+    font-weight: 600;
+}
+
 .donate-part-top {
     text-align: center;
     padding-top: 30px;
@@ -75,12 +79,93 @@ a {
 input {
     text-align: center;
     margin-bottom: 20px;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    padding-right: 150px;
+    padding-left: 150px;
 }
+
 
 .donation-range {
     padding-bottom: 40px;
 }
 
-#lower-donate-now {
-    margin-top: 100px;
+
+.donate-part-middle {
+    padding-top: 40px;
+}
+
+.necessary-1 {
+
+    margin: 10px;
+    margin-left: 300px;
+    float: center;
+    width: 15%;
+    height: 40%;
+    background: lightblue;
+    text-align: left;
+    padding: 10px 20px;
+}
+
+
+.necessary-2 {
+
+    margin: 10px;
+    float: center;
+    width: 15%;
+    height: 40%;
+    background: lightpink;
+    text-align: left;
+    padding: 10px 20px;
+}
+
+.necessary-3 {
+
+    margin: 10px;
+    float: center;
+    width: 15%;
+    height: 40%;
+    background: lightsalmon;
+    text-align: left;
+    padding: 10px 20px;
+}
+
+necessary-1,
+.necessary-2,
+.necessary-3 {
+    display: inline-block;
+}
+
+.donate-procedure {
+    display: flex;
+    text-align: center;
+
+}
+
+h4 {
+    font: italic;
+}
+
+
+footer p {
+    text-align: center;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+#ending-1 {
+    color: red;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Dancing Script', cursive;
+
+
+}
+
+#ending-2 {
+    color: white;
+    font-size: 8px;
 }
