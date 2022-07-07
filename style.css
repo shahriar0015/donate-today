@@ -5,14 +5,13 @@ body {
 }
 
 .top-banner {
-    background-image: url(images/donation7.jpg);
+    background-image: url(images/donation7-blur.jpg);
     background-repeat: no-repeat;
     background-size: center;
     text-align: center;
     margin: 0;
     padding-bottom: 5%;
     padding-top: 2%;
-
 }
 
 h1 {
@@ -142,6 +141,32 @@ necessary-1,
     text-align: center;
 
 }
+
+.my-update-1 {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+    padding-right: 200px;
+    text-decoration: none;
+    margin-left: 500px;
+    font-weight: 700;
+}
+
+.my-update-2 {
+    background-color: tomato;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.get-update {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: flex;
+}
+
 
 h4 {
     font: italic;
